@@ -38,19 +38,19 @@ and apply for jobs, while enabling recruiters to post and manage job listings.�
 - Clerk account
 
 ## Database Schema
-```
-The application uses the following tables in Supabase:​
 
-jobs: Stores job listings.
+###The application uses the following tables in Supabase:​
 
-saved_jobs: Tracks jobs saved by users.
+- jobs: Stores job listings.
 
-applications: Records job applications submitted by candidates.
+- saved_jobs: Tracks jobs saved by users.
 
-companies: Contains company information.​
+- applications: Records job applications submitted by candidates.
+
+- companies: Contains company information.​
 
 Ensure that foreign key constraints are properly set up to maintain data integrity.
-```
+
 
 ### Make sure to create a `.env` file with following variables:
 
