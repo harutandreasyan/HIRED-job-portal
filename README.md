@@ -31,7 +31,7 @@ and apply for jobs, while enabling recruiters to post and manage job listings.â€
 ### Prerequisites
 - Node.js (v14 or later)
   
-- npm(Vite)
+- npm (Vite)
   
 - Supabase account
   
