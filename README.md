@@ -39,7 +39,7 @@ and apply for jobs, while enabling recruiters to post and manage job listings.�
 
 ## Database Schema
 
-###The application uses the following tables in Supabase:​
+### The application uses the following tables in Supabase:​
 
 - jobs: Stores job listings.
 
