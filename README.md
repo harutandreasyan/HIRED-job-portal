@@ -2,7 +2,7 @@
 
 ### Description
 ```
-A full-stack job board platform that allows users to browse, save,<br>
+A full-stack job board platform that allows users to browse, save,
 and apply for jobs, while enabling recruiters to post and manage job listings.​
 ```
 ### Features
@@ -37,6 +37,21 @@ and apply for jobs, while enabling recruiters to post and manage job listings.�
   
 - Clerk account
 
+## Database Schema
+```
+The application uses the following tables in Supabase:​
+
+jobs: Stores job listings.
+
+saved_jobs: Tracks jobs saved by users.
+
+applications: Records job applications submitted by candidates.
+
+companies: Contains company information.​
+
+Ensure that foreign key constraints are properly set up to maintain data integrity.
+```
+
 ### Make sure to create a `.env` file with following variables:
 
 ```
@@ -46,6 +61,7 @@ VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 ```
 
 ### Run the application
-npm install <br>
+```
+npm install
 npm run dev
- 
+```
